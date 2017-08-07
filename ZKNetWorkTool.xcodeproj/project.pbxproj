@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38E957EA1F380FB00072A059 /* ZKHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E957E91F380FB00072A059 /* ZKHttpTool.m */; };
 		3A7BF0D06F2260E035B7000C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A3D9034435E21AD62B89DB /* libPods.a */; };
 		9BD76AA11C744D5C009D78D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD76AA01C744D5C009D78D3 /* main.m */; };
 		9BD76AA41C744D5C009D78D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD76AA31C744D5C009D78D3 /* AppDelegate.m */; };
@@ -16,8 +17,6 @@
 		9BD76AAF1C744D5C009D78D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD76AAD1C744D5C009D78D3 /* LaunchScreen.storyboard */; };
 		9BD76ABA1C744D5C009D78D3 /* ZKNetWorkToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD76AB91C744D5C009D78D3 /* ZKNetWorkToolTests.m */; };
 		9BD76AC51C744D5C009D78D3 /* ZKNetWorkToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD76AC41C744D5C009D78D3 /* ZKNetWorkToolUITests.m */; };
-		9BD76AD61C744D93009D78D3 /* ZKHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD76AD31C744D93009D78D3 /* ZKHttpTool.m */; };
-		9BD76AD71C744D93009D78D3 /* ZKNetWorkIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD76AD51C744D93009D78D3 /* ZKNetWorkIndicator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38E957E81F380FB00072A059 /* ZKHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKHttpTool.h; sourceTree = "<group>"; };
+		38E957E91F380FB00072A059 /* ZKHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKHttpTool.m; sourceTree = "<group>"; };
 		46A3D9034435E21AD62B89DB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E4ADD47A826F2EED87E924B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		7E10CC6C563D89A8B60A2E2F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -57,10 +58,6 @@
 		9BD76AC01C744D5C009D78D3 /* ZKNetWorkToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKNetWorkToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD76AC41C744D5C009D78D3 /* ZKNetWorkToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKNetWorkToolUITests.m; sourceTree = "<group>"; };
 		9BD76AC61C744D5C009D78D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BD76AD21C744D93009D78D3 /* ZKHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKHttpTool.h; sourceTree = "<group>"; };
-		9BD76AD31C744D93009D78D3 /* ZKHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKHttpTool.m; sourceTree = "<group>"; };
-		9BD76AD41C744D93009D78D3 /* ZKNetWorkIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKNetWorkIndicator.h; sourceTree = "<group>"; };
-		9BD76AD51C744D93009D78D3 /* ZKNetWorkIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKNetWorkIndicator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,15 +132,13 @@
 				9BD76AA31C744D5C009D78D3 /* AppDelegate.m */,
 				9BD76AA51C744D5C009D78D3 /* ViewController.h */,
 				9BD76AA61C744D5C009D78D3 /* ViewController.m */,
-				9BD76AD21C744D93009D78D3 /* ZKHttpTool.h */,
-				9BD76AD31C744D93009D78D3 /* ZKHttpTool.m */,
-				9BD76AD41C744D93009D78D3 /* ZKNetWorkIndicator.h */,
-				9BD76AD51C744D93009D78D3 /* ZKNetWorkIndicator.m */,
 				9BD76AA81C744D5C009D78D3 /* Main.storyboard */,
 				9BD76AAB1C744D5C009D78D3 /* Assets.xcassets */,
 				9BD76AAD1C744D5C009D78D3 /* LaunchScreen.storyboard */,
 				9BD76AB01C744D5C009D78D3 /* Info.plist */,
 				9BD76A9F1C744D5C009D78D3 /* Supporting Files */,
+				38E957E81F380FB00072A059 /* ZKHttpTool.h */,
+				38E957E91F380FB00072A059 /* ZKHttpTool.m */,
 			);
 			path = ZKNetWorkTool;
 			sourceTree = "<group>";
@@ -244,6 +239,7 @@
 				TargetAttributes = {
 					9BD76A9B1C744D5C009D78D3 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = C2Y8Q3RAAW;
 					};
 					9BD76AB41C744D5C009D78D3 = {
 						CreatedOnToolsVersion = 7.2;
@@ -357,9 +353,8 @@
 			files = (
 				9BD76AA71C744D5C009D78D3 /* ViewController.m in Sources */,
 				9BD76AA41C744D5C009D78D3 /* AppDelegate.m in Sources */,
+				38E957EA1F380FB00072A059 /* ZKHttpTool.m in Sources */,
 				9BD76AA11C744D5C009D78D3 /* main.m in Sources */,
-				9BD76AD61C744D93009D78D3 /* ZKHttpTool.m in Sources */,
-				9BD76AD71C744D93009D78D3 /* ZKNetWorkIndicator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +496,7 @@
 			baseConfigurationReference = 7E10CC6C563D89A8B60A2E2F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C2Y8Q3RAAW;
 				INFOPLIST_FILE = ZKNetWorkTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zk.ZKNetWorkTool;
@@ -514,6 +510,7 @@
 			baseConfigurationReference = 5E4ADD47A826F2EED87E924B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C2Y8Q3RAAW;
 				INFOPLIST_FILE = ZKNetWorkTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zk.ZKNetWorkTool;
