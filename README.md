@@ -9,7 +9,7 @@
 `+ (AFNetworkReachabilityStatus)reachability;`  
 通过监听通知AFNetworkingReachabilityDidChangeNotification对网络状态监听
 
-###网络请求
+### 网络请求
 ```
 /**
  get json
